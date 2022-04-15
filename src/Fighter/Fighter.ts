@@ -8,5 +8,5 @@ export default interface Fighter {
   attack(enemy: Fighter):void;
   special(enemy: Fighter):void;
   levelUp():void;
-  receiveDamage(attack: number):void;
+  receiveDamage(attackPoints: number):void;
 }
